@@ -62,6 +62,10 @@ button:hover {
     cursor: pointer;
 }
 
+button:active {
+    background: rgb(47, 95, 139)
+}
+
 /* Colour Grid*/
 
 main {
@@ -86,13 +90,17 @@ main {
 }
 
 .card {
-    background: red;
+    background: rgb(47, 95, 139);
     height: 200px;
     border-radius: 25px;
 }
 
 .card:hover {
     border: 2px solid white;
+}
+
+.card:active {
+    opacity: 0.6;
 }
 
 /* Media Queries*/
