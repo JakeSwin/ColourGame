@@ -66,6 +66,11 @@ button:active {
     background: rgb(47, 95, 139)
 }
 
+.active {
+    background: #3B76AD;
+    color: #ecf0f1;
+}
+
 /* Colour Grid*/
 
 main {
